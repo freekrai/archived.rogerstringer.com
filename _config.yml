@@ -1,9 +1,8 @@
 # Site settings
-title: Roger Stringer
+title: "Archived Roger Stringer"
 email: roger.stringer@me.com
 description: > # this means to ignore newlines until "baseurl:"
-  I’m Roger Stringer, and I’m a DevOps Engineer, full-stack software developer, writer, and speaker in Penticton, British Columbia, Canada.
-  This blog is where I write and share. You will see everything from reviews, posts about tech and design, to food.
+  I’m Roger Stringer, and this is the archive, where old posts from before 2014 go to live.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://archived.rogerstringer.com" # the base hostname & protocol for your site
 twitter_username: freekrai
