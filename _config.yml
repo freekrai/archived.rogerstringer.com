@@ -1,21 +1,23 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
+title: Roger Stringer
+email: roger.stringer@me.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+  I’m Roger Stringer, and I’m a DevOps Engineer, full-stack software developer, writer, and speaker in Penticton, British Columbia, Canada.
+  This blog is where I write and share. You will see everything from reviews, posts about tech and design, to food.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://archived.rogerstringer.com" # the base hostname & protocol for your site
+twitter_username: freekrai
+github_username:  freekrai
 
 # Build settings
-markdown: kramdown
+#markdown: kramdown
+markdown: redcarpet
+redcarpet:
+  extensions: ["smart", "tables", "no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data"]
+highlighter: pygments
+paginate: 20
+permalink: pretty
+
+gems:
+  - jekyll-paginate
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem

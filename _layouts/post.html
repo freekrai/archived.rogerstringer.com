@@ -9,6 +9,9 @@ layout: default
   </header>
 
   <div class="post-content" itemprop="articleBody">
+{% if( page.link ) %}
+	<p>Original Link: <a href="{{ page.link }}">{{ page.link  | truncatewords: 100}}</a></p>
+{% endif %}
     {{ content }}
   </div>
 
