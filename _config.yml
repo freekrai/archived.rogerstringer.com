@@ -9,14 +9,14 @@ twitter_username: freekrai
 github_username:  freekrai
 
 # Build settings
-#markdown: kramdown
 encoding: utf-8
-markdown: redcarpet
+markdown: kramdown
 redcarpet:
-  extensions: ["smart", "tables", "no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data"]
-highlighter: pygments
+  extensions: ["smart", "tables", "no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data", "footnotes"]
+highlighter: rouge
 paginate: 20
 permalink: pretty
+
 
 gems:
   - jekyll-paginate
