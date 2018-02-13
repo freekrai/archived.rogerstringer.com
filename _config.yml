@@ -2,7 +2,7 @@
 title: "Archived Roger Stringer"
 email: roger.stringer@me.com
 description: > # this means to ignore newlines until "baseurl:"
-  I’m Roger Stringer, and this is the archive, where old posts from before 2014 go to live.
+  I’m Roger Stringer, and this is the archive, where older posts go to live.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://archived.rogerstringer.com" # the base hostname & protocol for your site
 twitter_username: freekrai
