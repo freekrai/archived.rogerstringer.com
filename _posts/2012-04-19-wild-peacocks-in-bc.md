@@ -16,4 +16,4 @@ The story behind these guys is they were once pets years ago, but now live wild 
 
 They sleep in the trees, and come out during the daytime, wondering around the streets in search of food.
 
-Recently, the local news did a [piece on it](http://www.chbcnews.ca/video/naramata+peacock+problems/video.html?v=2209800845) regarding this interesting family of birds.
+Recently, the local news did a [piece on it](https://globalnews.ca/news/1329474/watch-peacocks-ruffle-feathers-in-naramata/) regarding this interesting family of birds.
